@@ -1,0 +1,73 @@
+
+
+
+body {
+    font-family: "Cagliostro", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: darkorange;
+
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    align-items: center;
+    border: 1rem;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.profile-pic img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #fff;
+    box-shadow: 0 0 0 5px #ccc; /* Para resaltar la foto */
+    position: sticky;
+    top: -75px; /* Ajusta la posición vertical de la foto */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h1 {
+    margin: 10px 0 0; /* Cambiamos el margin-bottom a 0 y agregamos un margin-top de 10px */
+}
+
+.personal-info {
+    margin-top: 80px; /* Ajusta el margen superior para dejar espacio para la imagen */
+}
+
+.personal-info p {
+    margin: 5px 0;
+}
+
+.personal-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.personal-info li {
+    margin-bottom: 10px;
+}
+
+.education, .experience {
+    margin-bottom: 30px;
+}
+
+.education h2, .experience h2 {
+    margin-bottom: 10px;
+}
+
+.education ul li, .experience ul li {
+    line-height: 1.6;
+}
+
+strong {
+    font-weight: bold;
+}
