@@ -80,13 +80,3 @@ h1 {
 strong {
     font-weight: bold;
 }
-
-body {
-    display: flex;
-    
-}
-
-.experience{
-    position: relative;
-    top: 20px
-}

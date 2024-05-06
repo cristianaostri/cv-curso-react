@@ -1,0 +1,57 @@
+
+h2 {
+    color: white;
+}
+
+section {
+    margin-top: 40px;
+}
+.ejercicioUno {
+    border: 10px solid black;
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.ejercicioDos {
+    border: 10px  solid black;
+    width: 450px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.ejercicioTres {
+    border: 10px solid black;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.uno {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dos {
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tres {
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
