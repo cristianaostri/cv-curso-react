@@ -5,7 +5,7 @@ body {
     font-family: "Cagliostro", sans-serif;
     margin: 0;
     padding: 0;
-    background-color: darkorange;
+    background: linear-gradient(to bottom,blue, white);
 
 }
 
@@ -40,6 +40,7 @@ h1 {
     font-family: "Aclonica", sans-serif;
   font-weight: 400;
   font-style: normal;
+  box-shadow: 0 0 5px #4312f3;
 }
 .profesion{
     font-family: "Bungee Shade", sans-serif;
@@ -78,4 +79,14 @@ h1 {
 
 strong {
     font-weight: bold;
+}
+
+body {
+    display: flex;
+    
+}
+
+.experience{
+    position: relative;
+    top: 20px
 }
