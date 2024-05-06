@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Archivo:ital,wght@0,100..900;1,100..900&family=Bungee+Shade&family=Cagliostro&family=Dancing+Script:wght@400..700&family=Smooch+Sans:wght@100..900&display=swap');
 
+@media only screen and (min-width: 752px){
+    
 
 body {
     font-family: "Cagliostro", sans-serif;
@@ -79,4 +81,89 @@ h1 {
 
 strong {
     font-weight: bold;
+}
+
+}
+
+@media only screen and (max-width: 752px) {
+    body {
+        font-family: "Cagliostro", sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(to bottom, rgb(0, 255, 21), white);
+    }
+
+    .container {
+        max-width: 752px; /* Modifica el ancho máximo para que sea 752px */
+        margin: 20px auto;
+        padding: 0 20px;
+        align-items: center;
+        border: 1rem;
+    }
+
+    header {
+        text-align: center;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    .profile-pic img {
+        border-radius: 50%;
+        width: 120px; /* Reduzco el tamaño de la imagen para dispositivos más pequeños */
+        height: 120px; /* Reduzco el tamaño de la imagen para dispositivos más pequeños */
+        border: 3px solid #fff; /* Reduzco el grosor del borde para dispositivos más pequeños */
+        box-shadow: 0 0 0 3px #ccc; /* Para resaltar la foto */
+        position: static; /* Cambio la posición de la imagen a estática */
+        transform: none; /* Elimino la transformación */
+    }
+
+    h1 {
+        margin: 10px 0 0; /* Cambiamos el margin-bottom a 0 y agregamos un margin-top de 10px */
+        font-family: "Aclonica", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        box-shadow: 0 0 5px #4312f3;
+    }
+
+    .profesion {
+        font-family: "Bungee Shade", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .personal-info {
+        margin-top: 20px; /* Ajusta el margen superior para dispositivos más pequeños */
+    }
+
+    .personal-info p {
+        margin: 5px 0;
+    }
+
+    .personal-info ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .personal-info li {
+        margin-bottom: 10px;
+    }
+
+    .education,
+    .experience {
+        margin-bottom: 20px; /* Reduzco el margen inferior para dispositivos más pequeños */
+    }
+
+    .education h2,
+    .experience h2 {
+        margin-bottom: 10px;
+    }
+
+    .education ul li,
+    .experience ul li {
+        line-height: 1.6;
+    }
+
+    strong {
+        font-weight: bold;
+    }
 }
