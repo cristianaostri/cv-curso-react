@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productos</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js" defer></script>
+</head>
+<body>
+
+<h1>Nuestros Productos</h1>
+
+<div class="product-container">
+  <div class="product-item" onclick="showIngredients('Producto 1')">
+    <img src="../img/cafe1jpeg" alt="Producto 1" id="producto1" onclick="showTextForImage(this.id)">
+    
+    <p>La morenita</p>
+  </div>
+  <div class="product-item" onclick="showIngredients('Producto 2')">
+    <img src="../img/cafe2.jpeg" alt="Producto 2" id="producto2" onclick="showTextForImage(this.id)">
+    <p>La virginia</p>
+    
+  </div>
+  <div class="product-item" onclick="showIngredients('Producto 3')">
+    <img src="../img/cafe3.webp" alt="Producto 3" id="producto3" onclick="showTextForImage(this.id)">
+    <p>Juan Valdez</p>
+    
+  </div>
+</div>
+
+<div>Que sabor tiene? haz clic  al producto</div>
+<div id="product-description"></div>
+
+<div class="ingredients" id="ingredients">
+  <h2>Ingredientes de Producto</h2>
+  <ul id="ingredient-list">
+    <!-- Los ingredientes se mostrarán aquí después de hacer clic en una imagen de producto -->
+  </ul>
+</div>
+
+<script src="../js/scripts.js"></script>
+</body>
+</html>

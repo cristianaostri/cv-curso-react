@@ -32,13 +32,13 @@ header {
     border: 5px solid #fff;
     box-shadow: 0 0 0 5px #ccc; /* Para resaltar la foto */
     position: sticky;
-    top: -75px; /* Ajusta la posición vertical de la foto */
+    top: -75px; 
     left: 50%;
     transform: translateX(-50%);
 }
 
 h1 {
-    margin: 10px 0 0; /* Cambiamos el margin-bottom a 0 y agregamos un margin-top de 10px */
+    margin: 10px 0 0;
     font-family: "Aclonica", sans-serif;
   font-weight: 400;
   font-style: normal;
